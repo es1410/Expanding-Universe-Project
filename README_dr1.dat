@@ -1,0 +1,158 @@
+J/AJ/139/519        Carnegie supernova project. SNe Ia       (Contreras+, 2010)
+================================================================================
+The Carnegie supernova project: first photometry data release of low-redshift
+type Ia supernovae.
+    Contreras C., Hamuy M., Phillips M.M., Folatelli G., Suntzeff N.B.,
+    Persson S.E., Stritzinger M., Boldt L., Gonzalez S., Krzeminski W.,
+    Morrell N., Roth M., Salgado F., Maureira M.J., Burns C.R., Freedman W.L.,
+    Madore B.F., Murphy D., Wyatt P., Li W., Filippenko A.V.
+   <Astron. J., 139, 519-539 (2010)>
+   =2010AJ....139..519C
+================================================================================
+ADC_Keywords: Supernovae ; Photometry, infrared ; Photometry, SDSS
+Keywords: galaxies: distances and redshifts - supernovae: general
+
+Abstract:
+    The Carnegie Supernova Project (CSP) is a five-year survey being
+    carried out at the Las Campanas Observatory to obtain high-quality
+    light curves of ~100 low-redshift Type Ia supernovae (SNe Ia) in a
+    well-defined photometric system. Here we present the first release of
+    photometric data that contains the optical light curves of 35 SNe Ia,
+    and near-infrared light curves for a subset of 25 events. The data
+    comprise 5559 optical (ugriBV) and 1043 near-infrared (Y JHKs) data
+    points in the natural system of the Swope telescope. Twenty-eight SNe
+    have pre-maximum data, and for 15 of these, the observations begin at
+    least 5 days before B maximum. This is one of the most accurate data
+    sets of low-redshift SNe Ia published to date. When completed, the CSP
+    data set will constitute a fundamental reference for precise
+    determinations of cosmological parameters, and serve as a rich
+    resource for comparison with models of SNe Ia.
+
+Description:
+    Our follow-up program focuses on SNe discovered by professional and
+    amateur astronomers who report them to the IAU Circulars (IAUC), the
+    IAU Electronic Telegrams (CBET), or occasionally, directly to us via
+    electronic mail. When word arrives of a new candidate, we place it in
+    our follow-up queue. Photometric monitoring is obtained entirely at
+    the Las Campanas Observatory (LCO).
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table3.dat    144      918   Optical and near-infrared photometry of the
+                              local sequences in the standard system
+snlist.dat     42       35   List of SNe with light curves
+table4.dat     89     1034   Optical photometry (ugriBV) of 35 SNe Ia
+table5.dat     69      352   Near-infrared photometry (YJHK) of 25 SNe Ia
+--------------------------------------------------------------------------------
+
+See also:
+   B/sn : Asiago Supernova Catalogue (Barbon et al., 1999-)
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  A6    ---     SN        SN identification
+   8-  9  I2    ---     Seq       Star sequence number within the SN field
+  11- 12  I2    h       RAh       Hour of Right Ascension (J2000)
+  14- 15  I2    min     RAm       Minute of Right Ascension (J2000)
+  17- 21  F5.2  s       RAs       Second of Right Ascension (J2000)
+      23  A1    ---     DE-       Sign of the Declination (J2000)
+  24- 25  I2    deg     DEd       Degree of Declination (J2000)
+  27- 28  I2    arcmin  DEm       Arcminute of Declination (J2000)
+  30- 34  F5.2  arcsec  DEs       Arcsecond of Declination (J2000)
+  36- 41  F6.3  mag     umag      ? The u' band magnitude
+  43- 45  I3    mmag  e_umag      ? Uncertainty in umag (1)
+  47- 52  F6.3  mag     gmag      ? The g' band magnitude
+  54- 56  I3    mmag  e_gmag      ? Uncertainty in gmag(1)
+  58- 63  F6.3  mag     rmag      ? The r' band magnitude
+  65- 67  I3    mmag  e_rmag      ? Uncertainty in rmag (1)
+  69- 74  F6.3  mag     imag      ? The i' band magnitude
+  76- 78  I3    mmag  e_imag      ? Uncertainty in imag (1)
+  80- 85  F6.3  mag     Bmag      ? The B band magnitude
+  87- 89  I3    mmag  e_Bmag      ? Uncertainty in Bmag (1)
+  91- 96  F6.3  mag     Vmag      ? The V band magnitude
+  98-100  I3    mmag  e_Vmag      ? Uncertainty in Vmag (1)
+ 102-107  F6.3  mag     Ymag      ? The Y band magnitude
+ 109-111  I3    mmag  e_Ymag      ? Uncertainty in Ymag (1)
+ 113-118  F6.3  mag     Jmag      ? The J band magnitude
+ 120-122  I3    mmag  e_Jmag      ? Uncertainty in Jmag (1)
+ 124-129  F6.3  mag     Hmag      ? The H band magnitude
+ 131-133  I3    mmag  e_Hmag      ? Uncertainty in Hmag (1)
+ 135-140  F6.3  mag     Kmag      ? The K_S_ band magnitude
+ 142-144  I3    mmag  e_Kmag      ? Uncertainty in Kmag (1)
+--------------------------------------------------------------------------------
+Note (1): Uncertainties are given in thousandths of a magnitude and correspond
+     to an rms of the magnitude obtained on at least 3 photometric nights,
+     with a minimum uncertainty of 0.015mag for an individual measurement.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: snlist.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label    Explanations
+--------------------------------------------------------------------------------
+   1-  6  A6    ---     SN       SN identification
+   8-  9  I2    h       RAh      Hour of Right Ascension (J2000)
+  11- 12  I2    min     RAm      Minute of Right Ascension (J2000)
+  14- 18  F5.2  s       RAs      Second of Right Ascension (J2000)
+      20  A1    ---     DE-      Sign of the Declination (J2000)
+  21- 22  I2    deg     DEd      Degree of Declination (J2000)
+  24- 25  I2    arcmin  DEm      Arcminute of Declination (J2000)
+  27- 30  F4.1  arcsec  DEs      Arcsecond of Declination (J2000)
+  32- 37  A6    ---     LCOpt    Optical photometric light curves in table4.dat
+  39- 42  A4    ---     LCIR     Infrared photometric light curves in table4.dat
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table4.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  A6    ---     SN        SN identification
+   8- 17  F10.2 d       JD        Julian Date of observation
+  19- 24  F6.3  mag     umag      ? The u band magnitude
+  26- 29  F4.3  mag   e_umag      ? Uncertainty in umag
+  31- 36  F6.3  mag     gmag      ? The g band magnitude
+  38- 41  F4.3  mag   e_gmag      ? Uncertainty in gmag
+  43- 48  F6.3  mag     rmag      ? The r band magnitude
+  50- 53  F4.3  mag   e_rmag      ? Uncertainty in rmag
+  55- 60  F6.3  mag     imag      ? The i band magnitude
+  62- 65  F4.3  mag   e_imag      ? Uncertainty in imag
+  67- 72  F6.3  mag     Bmag      ? The B band magnitude
+  74- 77  F4.3  mag   e_Bmag      ? Uncertainty in Bmag
+  79- 84  F6.3  mag     Vmag      ? The V band magnitude
+  86- 89  F4.3  mag   e_Vmag      ? Uncertainty in Vmag
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table5.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  A6    ---     SN        SN identification
+   8- 17  F10.2  d      JD        Julian Date of observation
+  19- 24  F6.3  mag     Ymag      ? The Y band magnitude
+  26- 29  F4.3  mag   e_Ymag      ? Uncertainty in Ymag
+  31- 36  F6.3  mag     Jmag      ? The J band magnitude
+  38- 41  F4.3  mag   e_Jmag      ? Uncertainty in Jmag
+  43- 48  F6.3  mag     Hmag      ? The H band magnitude
+  50- 53  F4.3  mag   e_Hmag      ? Uncertainty in Hmag
+  55- 60  F6.3  mag     Kmag      ? The Ks band magnitude
+  62- 65  F4.3  mag   e_Kmag      ? Uncertainty in Kmag
+  67- 69  A3    ---     Tel       Telescope code (1)
+--------------------------------------------------------------------------------
+Note (1): Telescope code as follows:
+    DUP = du Pont telescope
+    SWO = Swope telescope
+    BAA = Baade telescope
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+References:
+    Stritzinger et al.    Paper II    2011AJ....142..156S    Cat. J/AJ/142/156 
+
+================================================================================
+(End)                  Greg Schwarz [AAS], Patricia Vannier [CDS]    16-May-2012
