@@ -1,22 +1,33 @@
-Code used for PHY2071 Project at University of Surrey. 
+==========================================================
+PHY2071: Introduction to Astronomy Computational Project
+E. Schoenrock 
+URN: 6307684 
+==========================================================
+This GitHub Repository Contains all the code written for 
+this project. It is split into three parts:
+1. The Friedmann Models
+2. Carnegie Supernova Project Data
+3. Hubble Diagram Scripts
 
-Project: Modelling the Expansion of the Universe using the Friedmann eqns
+Within each branch there will be individual 'README' docs 
+outlining the purpose of each script. 
 
-The scripts included are detailed below:
+==========================================================
+General Outline of Project:
 
-'friedmann_closed.py' : Approx model of the Closed Universe (ending in the big crunch)
+The scripts in this repository serve two purposes. The 
+first models the universe based on the Friedmann eqns
+and produces plots for closed, open, flat universe with
+both matter and radiation approximations shown.
 
-'friedmann_open.py'   : Model of the Open universe (expansion continues)
+The second part, has all the experimental data from CSP, 
+and the relevant scripts that allow for the creation of 
+the Hubble diagram to be made. 
 
-'friedmann_flat.py'   : Model of the flat universe (believed to be what our universe is)
-
-'friedmann_matter.py' : Plots the three competing scenarios of a matter dominated universe
-
-
-After these scripts plan is to extend the flat friedmann universe model by plotting Hubble diagrams of SNe Ia
-and reading off a(t) directly. 
-
-Extinction Corrections will be applied, K-corrections not to be applied
-Filters: B,V,i (to begin with, might extend to the NIR)
-
-These scirpts will be added once completed and finalised. 
+NOTE:
+The SNe Ia used in this project are of low redshift, z<<0.1.
+Ideally a range of redshifts would have been used, but 
+this was the only public data that I could find, however
+the code written can easily be altered to work for a range
+of SNe Ia redshifts. 
+==========================================================
