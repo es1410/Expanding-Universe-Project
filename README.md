@@ -1,7 +1,6 @@
 ==========================================================
 PHY2071: Introduction to Astronomy Computational Project
-E. Schoenrock 
-URN: 6307684 
+E. Schoenrock  URN: 6307684 
 ==========================================================
 This GitHub Repository Contains all the code written for 
 this project. It is split into three parts:
@@ -30,4 +29,3 @@ Ideally a range of redshifts would have been used, but
 this was the only public data that I could find, however
 the code written can easily be altered to work for a range
 of SNe Ia redshifts. 
-==========================================================
