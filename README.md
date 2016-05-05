@@ -1,5 +1,6 @@
 ==========================================================
 PHY2071: Introduction to Astronomy Computational Project
+==========================================================
 E. Schoenrock  URN: 6307684 
 ==========================================================
 This GitHub Repository Contains all the code written for 
